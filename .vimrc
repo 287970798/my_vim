@@ -46,6 +46,16 @@ inoremap <c-e> <ESC>A
 "高亮当前行和列
 "set cuc
 "set cul
-set cursorcolumn
+
+"set cursorcolumn
 set cursorline
+"highlight 高亮配置
+"CursorLine  和 CursorColumn 分别表示当前所在的行列
+"cterm 表示为原生vim设置样式，设置为NONE表示可以自定义设置。
+"ctermbg 设置终端vim的背景色
+"ctermfg 设置终端vim的前景色
+"guibg 和 guifg 分别是设置gvim的背景色和前景色，本人平时都是使用终端打开vim，所以只是设置终端下的样式
+
+highlight CursorLine cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
+"highlight CursorColumn cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
 
