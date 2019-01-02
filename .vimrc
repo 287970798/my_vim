@@ -41,5 +41,11 @@ inoremap ( ()<ESC>i
 inoremap [ []<ESC>i
 inoremap { {<CR>}<ESC>O
 
+inoremap <c-e> <ESC>A
 
+"高亮当前行和列
+"set cuc
+"set cul
+set cursorcolumn
+set cursorline
 
